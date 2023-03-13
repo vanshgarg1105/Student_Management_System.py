@@ -4,7 +4,7 @@ import tkinter.ttk as ttk
 import tkinter.messagebox as tkMessageBox
 import sqlite3
 
-#functions to define database
+#FUNCTIONS TO DEFINE DATABASE
 def Database():
   global conn , cursor
   #creating student database
