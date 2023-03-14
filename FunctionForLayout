@@ -1,0 +1,18 @@
+
+#defining function for creating GUI Layout
+def DisplayForm():
+    #creating window
+    display_screen = Tk()
+    #setting width and height for window
+    display_screen.geometry("900x400")
+    #setting title for window
+    display_screen.title("Student Management System")
+    global tree
+    global SEARCH
+    global name,contact,email,rollno,branch
+    SEARCH = StringVar()
+    name = StringVar()
+    contact = StringVar()
+    email = StringVar()
+    rollno = StringVar()
+    branch = StringVar()
