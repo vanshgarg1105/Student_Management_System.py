@@ -1,1 +1,17 @@
 
+#creating frames for layout
+    #topview frame for heading
+    TopViewForm = Frame(display_screen, width=600, bd=1, relief=SOLID)
+    TopViewForm.pack(side=TOP, fill=X)
+    #first left frame for registration from
+    LFrom = Frame(display_screen, width="350")
+    LFrom.pack(side=LEFT, fill=Y)
+    #seconf left frame for search form
+    LeftViewForm = Frame(display_screen, width=500,bg="gray")
+    LeftViewForm.pack(side=LEFT, fill=Y)
+    #mid frame for displaying students record
+    MidViewForm = Frame(display_screen, width=600)
+    MidViewForm.pack(side=RIGHT)
+    #label for heading
+    lbl_text = Label(TopViewForm, text="Student Management System", font=('verdana', 18), width=600,bg="#1C2833",fg="white")
+    lbl_text.pack(fill=X)
